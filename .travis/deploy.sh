@@ -6,4 +6,4 @@ ssh-add .travis/travis
 ssh-keyscan igpolytech.fr >> ~/.ssh/known_hosts
 git remote add deploy dokku@igpolytech.fr:yannick-nodejstemplate
 git config --global push.default simple
-git push deploy master
+git push deploy master --force
